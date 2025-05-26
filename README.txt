@@ -1,67 +1,92 @@
-XM Bakeries
-XM Bakeries is a full-stack inventory and order management system built using Vue.js (frontend) and Node.js (backend), designed to streamline bakery operations by enabling efficient product search, order processing, inventory tracking, and customer management.
+🍞 XM Bakeries System Overview
+XM Bakeries is a comprehensive full-stack application built to manage bakery
+ inventory and customer orders. Developed with Vue.js on the frontend and Node.js with Express.js on 
+ the backend, this system enhances bakery workflows by providing smart tools for tracking products, managing orders,
+  handling inventory, and maintaining customer data.
 
-📌 Features
-Product Search and Filtering
+🔍 Core Functionality
+🔎 Smart Product Discovery
+Users can easily search for items using filters such as:
 
-Users can search for products using filters such as:
+Product category
 
 Price range
 
-Category
+Available quantity
 
-Quantity
+Search results can be sorted or arranged based on preferences for better user experience.
 
-Results can be sorted and customized based on user preferences.
+📦 Order Workflow Management
+Customers can place new orders and follow up on their delivery status.
 
-Order Management
+Provides access to order history and detailed purchase reports.
 
-Customers can place orders and track the delivery status.
+📊 Inventory Supervision
+Tracks stock levels in real-time.
 
-Ability to view past orders and purchase reports.
+Generates reports related to sales and inventory for analysis and planning.
 
-Inventory Management
+👤 Customer Profile Handling
+Stores and updates customer information dynamically.
 
-Real-time tracking of inventory levels for all products.
+Ensures customer data is managed effectively.
 
-Sales and inventory reporting functionality.
-
-Customer Management
-
-Manage customer information effectively with real-time updates.
-
-🔧 Technologies Used
+🛠️ Tech Stack
 Frontend: Vue.js
 
-Backend: Node.js with Express.js
+Backend: Node.js + Express.js
 
-Database: MySQL (via MySQL Workbench)
+Database: MySQL (configured via MySQL Workbench)
 
-Authentication & Middleware: Custom Node.js Middleware for input validation and error handling
+Security & Validation: Custom middleware for authentication and data validation
 
-Deployment Platform: Firebase or any other chosen platform
+Cloud Hosting: Firebase or any similar service
 
-Tools: Postman, Swagger, OWASP, PM2, Redis, AWS Lambda, Winston
+Supporting Tools:
 
-🚀 Deployment
-Node.js backend can be deployed using Firebase or an alternative cloud platform.
+Postman (API Testing)
 
-Ensure authentication and input validations are handled via middleware.
+Swagger (API Documentation)
 
-📁 Repository Setup Instructions
-Clone the project.
+OWASP (Security Guidelines)
 
-Install dependencies using npm install.
+PM2 (Process Manager)
 
-Set up environment variables.
+Redis (Caching)
 
-Run the backend and frontend servers.
+AWS Lambda (Serverless Functions)
 
-Explore the application using the provided routes and frontend UI.
+Winston (Logging)
 
-📄 Requirements
-Make sure the repository:
+🚀 Going Live
+Deploy the backend on Firebase or any cloud platform of your choice.
 
-Is public or viewable with a link
+Ensure all routes are protected and validated using middleware.
 
-Contains a clear README with your name and project description
+Frontend and backend should be configured to run independently or in parallel.
+
+📦 Project Setup Guide
+Clone the Repository
+Download the project files using Git or GitHub.
+
+Install Dependencies
+Run npm install in both frontend and backend folders.
+
+Set Environment Variables
+Configure .env files for keys and database credentials.
+
+Start Servers
+Launch frontend and backend services to run the application.
+
+Browse the App
+Use the routes and UI to interact with the system features.
+
+✅ Project Requirements
+The code repository must be public or accessible via link.
+
+A README file should be included containing:
+
+Your full name
+
+A short project summary
+
